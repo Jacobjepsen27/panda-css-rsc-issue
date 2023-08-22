@@ -1,0 +1,15 @@
+@layer reset,
+base,
+tokens,
+recipes,
+utilities;
+
+#root,
+__next {
+    isolation: isolate;
+}
+
+html,
+body {
+    height: 100%;
+}
